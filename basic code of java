@@ -1,4 +1,4 @@
-program 1
+#program 1
 
 class Main {
     public static void main(String[] args) {
@@ -10,9 +10,9 @@ output
 Hello world
 
 === Code Execution Successful ===
+---------------------------------------------------------------------------------------------------------------------------------------------
 
-
-program 2
+#program 2
 
 package PSNA;
 public class methoddemo {
@@ -31,9 +31,9 @@ PSNA
 30
 
 === Code Execution Successful ===
+---------------------------------------------------------------------------------------------------------------------------------------------
 
-
-program 3
+#program 3
 
 public class Example {
     public static void main(String[] args) {
@@ -57,9 +57,9 @@ output:
 c is greatest
 
 === Code Execution Successful ===
+---------------------------------------------------------------------------------------------------------------------------------------------
 
-
-program 4
+#program 4
 
 import java.util.Scanner;
 
@@ -91,9 +91,9 @@ Enter your mark: 60
 pass
 
 === Code Execution Successful ===
+---------------------------------------------------------------------------------------------------------------------------------------------
 
-
-program 5
+#program 5
 
 import java.util.Scanner;
 
@@ -141,9 +141,9 @@ Enter a number between 1 to 7: 3
 Wednesday
 
 === Code Execution Successful ===
+---------------------------------------------------------------------------------------------------------------------------------------------
 
-
-program 6
+#program 6
 
 import java.util.Scanner;
 
@@ -170,9 +170,9 @@ Enter a year: 2024
 is a Leap Year.
 
 === Code Execution Successful ===
+---------------------------------------------------------------------------------------------------------------------------------------------
 
-
-program 7
+#program 7
 
 class trianglepattern {
     public static void main(String[] args) {
@@ -186,7 +186,6 @@ class trianglepattern {
     }
 }
 
-
 output:
 
 *
@@ -196,9 +195,9 @@ output:
 *****
 
 === Code Execution Successful ===
+---------------------------------------------------------------------------------------------------------------------------------------------
 
-
-program 8
+#program 8
 
 class trianglepattern {
     public static void main(String[] args) {
@@ -220,9 +219,9 @@ output
 1 2 3 4 
 
 === Code Execution Successful ===
+---------------------------------------------------------------------------------------------------------------------------------------------
 
-
-program 9
+#program 9
 
 class trianglepattern {
     public static void main(String[] args) {
@@ -246,3 +245,28 @@ output
 *
 
 === Code Execution Successful ===
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+#program 10
+
+class trianglepattern {
+    public static void main(String[] args) {
+        int b=1;
+        for( int i=1;i<=3;i++){
+            for(int j=1;j<=i;j++){
+               System.out.print(b+ " ");
+               b++;
+            }
+            System.out.println();
+        }
+    }
+}
+
+output
+
+1 
+2 3 
+4 5 6 
+
+=== Code Execution Successful ===
+
