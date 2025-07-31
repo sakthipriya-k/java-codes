@@ -1,0 +1,248 @@
+program 1
+
+class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello world");
+    }
+}
+
+output
+Hello world
+
+=== Code Execution Successful ===
+
+
+program 2
+
+package PSNA;
+public class methoddemo {
+    int add(int a,int b){
+        return a+b;
+    }
+    public static void main(String[] args) {
+        System.out.println("PSNA");
+        methoddemo obj=new methoddemo();
+        System.out.println(obj.add(10,20));
+    }
+}
+
+output:
+PSNA
+30
+
+=== Code Execution Successful ===
+
+
+program 3
+
+public class Example {
+    public static void main(String[] args) {
+        int a = 10, b = 20, c = 30;
+
+        if (a > b && a > c) {
+            System.out.println("a is greatest");
+        } else if (b > a && b > c) {
+            System.out.println("b is greatest");
+        } else if (c > a && c > b) {
+            System.out.println("c is greatest");
+        } else {
+            System.out.println("c is greatest");
+        }
+    }
+}
+
+
+output:
+
+c is greatest
+
+=== Code Execution Successful ===
+
+
+program 4
+
+import java.util.Scanner;
+
+public class MarkComments {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter your mark: ");
+        int mark = sc.nextInt();
+
+        if (mark >= 0 && mark <= 40) {
+            System.out.println("fill");
+        } else if (mark >= 41 && mark <= 60) {
+            System.out.println("pass");
+        } else if (mark >= 61 && mark <= 80) {
+            System.out.println("average");
+        } else if (mark >= 81 && mark <= 100) {
+            System.out.println("best");
+        } else {
+            System.out.println("Invalid mark");
+        }
+
+        sc.close();
+    }
+}
+
+output:
+
+Enter your mark: 60
+pass
+
+=== Code Execution Successful ===
+
+
+program 5
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter a number between 1 to 7: ");
+        int c = sc.nextInt();
+
+        switch (c) {
+            case 1:
+                System.out.println("Monday");
+                break;
+            case 2:
+                System.out.println("Tuesday");
+                break;
+            case 3:
+                System.out.println("Wednesday");
+                break;
+            case 4:
+                System.out.println("Thursday");
+                break;
+            case 5:
+                System.out.println("Friday");
+                break;
+            case 6:
+                System.out.println("Saturday");
+                break;
+            case 7:
+                System.out.println("Sunday");
+                break;
+            default:
+                System.out.println("Invalid");
+                break;
+        }
+
+        sc.close();
+    }
+}
+
+output
+
+Enter a number between 1 to 7: 3
+Wednesday
+
+=== Code Execution Successful ===
+
+
+program 6
+
+import java.util.Scanner;
+
+public class LeapYearCheck {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter a year: ");
+        int year = sc.nextInt();
+
+        if (year % 4 == 0) {
+            System.out.println( "is a Leap Year.");
+        } else {
+            System.out.println("is NOT a Leap Year.");
+        }
+
+        sc.close();
+    }
+}
+
+output
+
+Enter a year: 2024
+is a Leap Year.
+
+=== Code Execution Successful ===
+
+
+program 7
+
+class trianglepattern {
+    public static void main(String[] args) {
+        int b=5;
+        for( int i=1;i<=b;i++){
+            for(int j=1;j<=i;j++){
+               System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+}
+
+
+output:
+
+*
+**
+***
+****
+*****
+
+=== Code Execution Successful ===
+
+
+program 8
+
+class trianglepattern {
+    public static void main(String[] args) {
+        int b=4;
+        for( int i=1;i<=b;i++){
+            for(int j=1;j<=i;j++){
+               System.out.print(j+" ");
+            }
+            System.out.println();
+        }
+    }
+}
+
+output
+
+1 
+1 2 
+1 2 3 
+1 2 3 4 
+
+=== Code Execution Successful ===
+
+
+program 9
+
+class trianglepattern {
+    public static void main(String[] args) {
+        int b=5;
+        for(int i=b;i>=1;i--){
+            for(int j=1;j<=i;j++){
+               System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+}
+
+
+output
+
+*****
+****
+***
+**
+*
+
+=== Code Execution Successful ===
