@@ -335,3 +335,90 @@ output
 -------------------------------------------------------------------------------------------------------------------------------------------
 #program 14
 
+public class ButterflyPattern {
+    public static void main(String[] args) {
+        int n = 5;
+
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= i; j++) System.out.print("*");
+            for (int j = 1; j <= 2 * (n - i); j++) System.out.print(" ");
+            for (int j = 1; j <= i; j++) System.out.print("*");
+            System.out.println();
+        }
+
+        for (int i = n; i >= 1; i--) {
+            for (int j = 1; j <= i; j++) System.out.print("*");
+            for (int j = 1; j <= 2 * (n - i); j++) System.out.print(" ");
+            for (int j = 1; j <= i; j++) System.out.print("*");
+            System.out.println();
+        }
+    }
+}
+
+output
+
+*        *
+**      **
+***    ***
+****  ****
+**********
+**********
+****  ****
+***    ***
+**      **
+*        *
+
+=== Code Execution Successful ===
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+#program 15
+
+package psna;
+
+public class ReverseWord {
+    public static void main(String[] args) {
+        String a = "alphabet";
+        int reverse = a.length();
+        String reversed = "";
+
+        for (int i = reverse - 1; i >= 0; i--) {
+            reversed += a.charAt(i);
+        }
+
+        System.out.println(reversed); 
+    }
+}
+
+output
+
+tebahpla
+
+=== Code Execution Successful ===
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+#program 16
+
+public class Main {
+    public static void main(String[] args) {
+        int[] mynum = {10, 20, 30};
+        String[] cars = {"bmw", "thar", "honda", "Rolls-Royce"};
+        
+        System.out.println(mynum[0]);   
+        System.out.println(cars[3]);    
+        System.out.println(mynum[2]);   
+
+output
+
+10
+Rolls-Royce
+30
+
+=== Code Execution Successful ===
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+#program 17
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+#program 18
